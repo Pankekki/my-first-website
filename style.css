@@ -1,0 +1,28 @@
+/*
+Selects all `h1` tags
+h1 {
+   color:green; 
+}
+
+Creates a class and applies to all in class.
+.second-h1 {
+    font-weight: lighter;
+}
+
+Creates an ID and applies to 
+#third-h1 {
+    font-size: 100px;
+}
+ */ 
+
+li {
+    color:#5192BD;
+}
+
+.fruit-pancakes {
+    color:#113D5A;
+}
+
+#description {
+    color:#925ACE;
+}
