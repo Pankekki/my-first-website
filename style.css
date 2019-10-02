@@ -26,3 +26,14 @@ li {
 #description {
     color:#925ACE;
 }
+
+div.mainheader {
+    border: 3px solid black;
+}
+div.fruitdiv {
+    font-family: Arial;
+}
+div.chocolatediv {
+    background-color:#e8fffb;
+    float: right;
+}
