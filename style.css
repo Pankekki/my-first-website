@@ -14,46 +14,10 @@ Creates an ID and applies to
     font-size: 100px;
 }
  */ 
-html {
-    background-color:#fffe9a;
+.jumbotron {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("https://media.eggs.ca/assets/RecipePhotos/_resampled/FillWyIxMjgwIiwiNzIwIl0/Fluffy-Pancakes-New-CMS.jpg");
 }
-h1 {
-    text-align: center;
-    color:#f16821;
-}
-
-h2 {
-    color: #f16821;
-    text-align: center;
-}
-
-li {
-    color:#f3a333;
-}
-
-.fruit-pancakes {
-    color:#f16821;
-}
-
-#description {
-    color:#f3a333;
-    text-align: center;
-}
-
-div.mainheader {
-    border: 5px solid #cd4545;
-}
-div.fruitdiv {
-    font-family: Arial;
-}
-div.chocolatediv {
-    background-color:#f3fe7e;
-    align-self: center;
-
-}
-
-img {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+#chocochipimage {
+    max-width: 200px;
 }
