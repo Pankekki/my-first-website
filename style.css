@@ -14,26 +14,46 @@ Creates an ID and applies to
     font-size: 100px;
 }
  */ 
+html {
+    background-color:#fffe9a;
+}
+h1 {
+    text-align: center;
+    color:#f16821;
+}
+
+h2 {
+    color: #f16821;
+    text-align: center;
+}
 
 li {
-    color:#5192BD;
+    color:#f3a333;
 }
 
 .fruit-pancakes {
-    color:#113D5A;
+    color:#f16821;
 }
 
 #description {
-    color:#925ACE;
+    color:#f3a333;
+    text-align: center;
 }
 
 div.mainheader {
-    border: 3px solid black;
+    border: 5px solid #cd4545;
 }
 div.fruitdiv {
     font-family: Arial;
 }
 div.chocolatediv {
-    background-color:#e8fffb;
-    float: right;
+    background-color:#f3fe7e;
+    align-self: center;
+
+}
+
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
