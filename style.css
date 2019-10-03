@@ -18,14 +18,7 @@ Creates an ID and applies to
     color: white;
     background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("https://media.eggs.ca/assets/RecipePhotos/_resampled/FillWyIxMjgwIiwiNzIwIl0/Fluffy-Pancakes-New-CMS.jpg");
 }
-#chocochipimage {
-    max-width: 200px;
-}
-#strawberryimage {
-    max-width: 200px;
-}
-
-#blueberryimage {
+.resizedimg {
     max-width: 200px;
 }
 
@@ -35,4 +28,9 @@ Creates an ID and applies to
 
 .fruit-pancakes {
     text-decoration: underline;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://wallpapercave.com/wp/wp2444943.jpg");
+    background-attachment: fixed;
 }
