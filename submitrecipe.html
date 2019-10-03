@@ -11,33 +11,73 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Pancake Recipes</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="submitrecipe.html">Submit</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
     <div class="jumbotron">
-        <div class="container">`
+        <div class="container">
             <h1>Delicious Pancake Recipes</h1>
             <p>Have you ever enjoyed Pancakes so much that you need recipes? Well here is the website for you.</p>
             <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a></p>
         </div>
     </div>
-    
-    <div class="container-fluid">
-        <ul class="nav nav-tabs">
-            <li role="presentation"><a href="file:///home/pankekki/pancakestuff/my-first-website/index.html">Home</a></li>
-            <li role="presentation" class="active"><a href="file:///home/pankekki/pancakestuff/my-first-website/submitrecipe.html">Submit a Recipe!</a></li>
-        </ul>
-    </div>
 
-    <div class="container-fluid" id="submitform">
-         <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title text-center">Submit Your Recipe Here!</h3>
-                </div>
-                <div class="panel-body">
-                    <div class="input-group">
-                      <span class="input-group-addon" id="basic-addon1">Username:</span>
-                      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Submit Your Recipe Here!</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group">
+                                  <span class="input-group-addon" id="basic-addon1">Username:</span>
+                                  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputFile">Upload File</label>
+                                <input type="file" id="exampleInputFile">
+                                <p class="help-block">Upload recipe here!</p>
+                            </div>
+                            <div class="form-group">
+                                <label id="submittext"> Submit Recipe Here:</label>
+                                <textarea rows="10" class="form-control" placeholder="Submit recipe here..."></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-xs-offset-10">
+                                    <input class="btn btn-primary btn-block" type="submit" value="Submit">
+                                </div>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
             </div>
+        </div>
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
