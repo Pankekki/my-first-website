@@ -34,3 +34,11 @@ body {
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://wallpapercave.com/wp/wp2444943.jpg");
     background-attachment: fixed;
 }
+
+#submitform {
+    max-width:50%;
+}
+
+#textbox {
+    max-width: 100%;
+}
