@@ -21,3 +21,18 @@ Creates an ID and applies to
 #chocochipimage {
     max-width: 200px;
 }
+#strawberryimage {
+    max-width: 200px;
+}
+
+#blueberryimage {
+    max-width: 200px;
+}
+
+.panel-title {
+    font-weight: bold;
+}
+
+.fruit-pancakes {
+    text-decoration: underline;
+}
